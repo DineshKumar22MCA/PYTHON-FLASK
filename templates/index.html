@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>welcome to the great karikalan shows</h2>
+
+<ul>
+    {% for course in courses %}
+    <li>{{course}}</li>
+    {% endfor %}
+</ul>
+{% if id %}
+<h4>thulasi the legend </h4>
+{% else %}
+<p> poda bunda </p>
+{% endif %}
+</body>
+</html>
